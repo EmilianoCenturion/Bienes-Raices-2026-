@@ -21,7 +21,7 @@ npm install
 
 Ejecutar entorno de desarrollo:
 
-gulp
+npm run dev
 
 ## 📁 Estructura del proyecto
 
