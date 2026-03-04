@@ -1,0 +1,14 @@
+@use "variables" as *;
+@use "base/mixins" as *;
+
+.boton-amarillo-block {
+    @include boton($amarillo, block);
+}
+
+.boton-verde {
+    @include boton($verde, inline-block);
+}
+
+.boton-amarillo {
+    @include boton($amarillo, inline-block);
+}
