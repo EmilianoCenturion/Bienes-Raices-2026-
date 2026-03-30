@@ -28,107 +28,12 @@
     <section class="seccion contenedor">
         <h2>Casas y Depas en Ventas</h2>
 
-        <div class="contenedor-anuncios">
-            <div class="anuncio">
-                <picture>
-                    <source srcset="build/img/anuncio1.webp" type="image/webp">
-                    <source srcset="build/img/anuncio1.jpeg" type="image/jpeg">
-                    <img loading="lazy" src="build/img/anuncio1.jpg" alt="anuncio">
-                </picture>
+        <?php 
+            
+            $limite = 3;
+            include "includes/templates/anuncios.php"; 
 
-                <div class="contenido-anuncio">
-                    <h3>Casa de Lujo en el Lago</h3>
-                    <p>Casa en el lago con excelente vista, acabados de lujo a un excelente precio</p>
-                    <p class="precio">$10.000.000</p>
-
-                    <ul class="iconos-caracteristicas">
-                        <li>
-                            <img class="icono" src="build/img/icono_wc.svg" alt="icono wc" loading="lazy">
-                            <p>3</p>
-                        </li>
-                        <li>
-                            <img class="icono" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento" loading="lazy">
-                            <p>3</p>
-                        </li>
-                        <li>
-                            <img class="icono" src="build/img/icono_dormitorio.svg" alt="icono habitaciones" loading="lazy">
-                            <p>4</p>
-                        </li>
-                    </ul>
-
-                    <a href="anuncio.php" class="boton-amarillo-block">
-                        Ver propiedad
-                    </a>
-                </div><!-- .contenido-anuncio -->
-            </div><!-- anuncio -->
-
-            <div class="anuncio">
-                <picture>
-                    <source srcset="build/img/anuncio2.webp" type="image/webp">
-                    <source srcset="build/img/anuncio2.jpeg" type="image/jpeg">
-                    <img loading="lazy" src="build/img/anuncio2.jpg" alt="anuncio">
-                </picture>
-
-                <div class="contenido-anuncio">
-                    <h3>Casa terminados de lujo</h3>
-                    <p>Casa con diseño moderno, asi como tecnologia inteligente y amueblada</p>
-                    <p class="precio">$8.000.000</p>
-
-                    <ul class="iconos-caracteristicas">
-                        <li>
-                            <img class="icono" src="build/img/icono_wc.svg" alt="icono wc" loading="lazy">
-                            <p>3</p>
-                        </li>
-                        <li>
-                            <img class="icono" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento" loading="lazy">
-                            <p>3</p>
-                        </li>
-                        <li>
-                            <img class="icono" src="build/img/icono_dormitorio.svg" alt="icono habitaciones" loading="lazy">
-                            <p>4</p>
-                        </li>
-                    </ul>
-
-                    <a href="anuncio.php" class="boton-amarillo-block">
-                        Ver propiedad
-                    </a>
-                </div><!-- .contenido-anuncio -->
-            </div><!-- anuncio -->
-
-            <div class="anuncio">
-                <picture>
-                    <source srcset="build/img/anuncio3.webp" type="image/webp">
-                    <source srcset="build/img/anuncio3.jpeg" type="image/jpeg">
-                    <img loading="lazy" src="build/img/anuncio3.jpg" alt="anuncio">
-                </picture>
-
-                <div class="contenido-anuncio">
-                    <h3>Casa con pileta</h3>
-                    <p>Casa con pileta y acabados de lujo en la ciudad, excelente oportunidad</p>
-                    <p class="precio">$7.000.000</p>
-
-                    <ul class="iconos-caracteristicas">
-                        <li>
-                            <img class="icono" src="build/img/icono_wc.svg" alt="icono wc" loading="lazy">
-                            <p>3</p>
-                        </li>
-                        <li>
-                            <img class="icono" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento" loading="lazy">
-                            <p>3</p>
-                        </li>
-                        <li>
-                            <img class="icono" src="build/img/icono_dormitorio.svg" alt="icono habitaciones" loading="lazy">
-                            <p>4</p>
-                        </li>
-                    </ul>
-
-                    <a href="anuncio.php" class="boton-amarillo-block">
-                        Ver propiedad
-                    </a>
-                </div><!-- .contenido-anuncio -->
-            </div><!-- anuncio -->
-
-        </div><!-- .contenedor-anuncios -->
+        ?>
 
         <div class="alinear-derecha">
             <a href="anuncios.php" class="boton-verde">Ver todas</a>
@@ -178,7 +83,7 @@
                 <div class="texto-entrada">
                     <a href="entrada.php">
                         <h4>Guia para la decoracion de tu hogar</h4>
-                        <p class="informacion-meta"">Escrito el: <span>20/08/2026</span> por: <span>Admin</span></p>
+                        <p class="informacion-meta">Escrito el: <span>20/08/2026</span> por: <span>Admin</span></p>
 
                         <p>
                             Maximiza el espacio en tu hogar con esta guia, aprende a combinar muebles y colores para darle vida a tu espacio
