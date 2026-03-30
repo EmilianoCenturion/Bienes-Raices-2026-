@@ -3,6 +3,7 @@
 
 .boton-amarillo-block {
     @include boton($amarillo, block);
+    margin-top: auto;
 }
 
 .boton-verde {
@@ -11,4 +12,13 @@
 
 .boton-amarillo {
     @include boton($amarillo, inline-block);
+}
+
+.boton-rojo-block {
+    @include boton($rojo, block);
+    width: 100%;
+}
+
+.boton-azul-block {
+    @include boton($azul, block);
 }
